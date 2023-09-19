@@ -1,4 +1,5 @@
 import { useState } from "react"
+import '../../scroll-bar.css'
 import close from '../../assets/close.svg'
 import menu from '../../assets/menu.svg'
 import logo from "../../assets/logo.png"

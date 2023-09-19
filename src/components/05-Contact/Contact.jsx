@@ -12,7 +12,7 @@ const Contact = ({ contactLinksOption }) => {
                 <p className="text-center text-white text-3xl font-poppins">CONTACTO</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-7 py-4 px-10 justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-7 py-0 px-10 justify-items-center">
 
                 <div className="flex items-center justify-center col-span-2">
                     <img className="w-5/6 sm:w-8/12 md:w-full mb-14 md:mb-0 p-4" src={mapa} alt="" />

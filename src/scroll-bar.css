@@ -1,0 +1,23 @@
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #343436; /* Color de fondo de la pista de desplazamiento */
+    border-radius: 10px;    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background: gray; /* Color de la barra de desplazamiento */
+    border-radius: 10px;
+  }
+  
+  /* Estilos al pasar el cursor sobre la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+    
+  }
+  

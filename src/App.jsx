@@ -6,6 +6,7 @@ import Main from "./components/02-MainScreen/Main"
 import About from "./components/03-AboutUs/About"
 import Gallery from "./components/04-Gallery/Gallery";
 import Contact from "./components/05-Contact/Contact";
+import Footer from './components/06-Footer/Footer';
 
 function App() {
 
@@ -45,6 +46,9 @@ function App() {
       <div className="bg-primary">
         {showPopup && <Popup onImageClick={handleImageClick} />}
         <Contact contactLinksOption={contactLinksOption} />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )
