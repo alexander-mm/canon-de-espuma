@@ -1,19 +1,35 @@
 import backgroundVideo from '../../assets/main.mp4';
+import mainMobile from '../../assets/main-mobile.mp4';
 
 const Main = () => (
-    <section id="inicio" className="w-full mt-12">
+    <section id="inicio" className="w-full min-h-screen relative">
+        {/* Video para pantallas md: y más grandes */}
+        <video
+            className='hidden md:block absolute top-[4.5em] left-0 object-cover sm:w-full h-[110%]'
+            autoPlay
+            loop
+            muted
+            playsInline
+            loading="lazy"
+        >
+            <source src={backgroundVideo} type="video/mp4" />
+            Tu navegador no admite la reproducción de videos.
+        </video>
 
-        <div className='relative'>
-            <video className='absolute inset-0 w-full h-full object-cover' loop muted playsInline autoPlay loading="lazy" width="640" height="360">
-                <source src={backgroundVideo} type="video/mp4" />
-                Tu navegador no admite la reproducción de videos.
-            </video>
-
-            <div className='text-center flex flex-col items-center justify-center relative z-10 p-[32rem]'>
-
-            </div>
-        </div>
+        {/* Video para pantallas por defecto */}
+        <video
+            className='block md:hidden absolute top-[4.5em] left-0 object-cover sm:w-full h-[100%]'
+            autoPlay
+            loop
+            muted
+            playsInline
+            loading="lazy"
+        >
+            <source src={mainMobile} type="video/mp4" />
+            Tu navegador no admite la reproducción de videos.
+        </video>
     </section>
 );
 
 export default Main;
+

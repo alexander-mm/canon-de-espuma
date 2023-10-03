@@ -4,13 +4,13 @@ import { Slider } from "./Slider";
 const Events = () => {
     return (
         <>
-            <div className="w-full flex py-4 justify-center items-center bg-grayEspuma">
-                <p className="text-center text-white text-3xl font-poppins">
+            <div className="w-full flex py-5 justify-center items-center bg-whiteEspuma">
+                <p className="text-center text-bluesEspuma text-3xl font-poppins font-semibold">
                     NUESTRA GALERIA
                 </p>
             </div>
 
-            <div className="flex items-center justify-center py-20 mx-20">
+            <div className="flex items-center justify-center py-20 mb-10 mx-20">
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center">
 

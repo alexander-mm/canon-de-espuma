@@ -20,30 +20,30 @@ function App() {
 
   return (
 
-    <div className="bg-grayEspuma w-full overflow-hidden">
+    <div className="bg-custom-gradient-two w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primary`}>
+      <div className={`bg-custom-gradient-two`}>
         <Main />
-        <div id="nosotros" className="bg-transparent py-6"></div>
+        <div id="nosotros" className="bg-transparent py-9"></div>
       </div>
 
-      <div className="bg-primary">
+      <div className="bg-custom-gradient-two">
         <About />
         <div id="galeria" className="bg-transparent py-8"></div>
       </div>
 
 
-      <div className="bg-primary">
+      <div className="bg-custom-gradient-two">
         <Gallery />
-        <div id="contacto" className="bg-transparent py-6"></div>
+        <div id="contacto" className="bg-transparent py-9"></div>
       </div>
 
-      <div className="bg-primary">
+      <div className="bg-custom-gradient-two">
         {showPopup && <Popup onImageClick={handleImageClick} />}
         <Contact contactLinksOption={contactLinksOption} />
       </div>

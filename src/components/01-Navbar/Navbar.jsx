@@ -6,27 +6,30 @@ import logo from "../../assets/logo.png"
 import { navLinks } from "../../constants"
 
 const Navbar = () => {
+
     const [toggle, setToggle] = useState(false)
+
+
     return (
-        <nav className="w-full flex py-2 justify-between items-center navbar"
+        <nav className="w-full flex py-2 justify-between items-center navbar border-b border-black/20"
             style={{
                 position: 'fixed',
                 top: 0,
                 left: 0,
-                backgroundColor: '#343436',
+                backgroundColor: '#DAE1E7',
                 zIndex: 9999,
 
             }}
         >
             <img
                 src={logo} alt="espuma play logo"
-                className="w-[147.5px] h-[50px] ml-14 md:ml-40 lg:ml-60"
+                className="w-[170px] ml-14 md:ml-40 lg:ml-60"
             />
             <ul className="list-none mr-14 md:mr-40 lg:mr-60 sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
                     <li
                         key={nav.id}
-                        className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
+                        className={`font-poppins font-medium cursor-pointer text-[19px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-bluesEspuma`}
                     >
                         <a
                             href={`#${nav.id}`}
@@ -43,8 +46,7 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <div
-                className="z-50 sm:hidden flex flex-1 justify-end items-center">
+            <div className="z-50 sm:hidden flex flex-1 justify-end items-center">
                 <img
                     src={toggle ? close : menu}
                     alt="menu"

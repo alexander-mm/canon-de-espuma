@@ -5,6 +5,9 @@ export const theme = {
   extend: {
     colors: {
       grayEspuma: "#343436",
+      whiteEspuma: "#DAE1E7",
+      bluesEspuma: "#142850",
+      skyEspuma: "#00909E",
       blueEspuma: "#0057A5",
       primary: "#00040f",
       secondary: "#00f6ff",

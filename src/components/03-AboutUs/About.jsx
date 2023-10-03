@@ -5,8 +5,8 @@ import foto16 from '../../assets/fotos/16.jpg'
 const About = () => {
     return (
         <>
-            <div className="w-full flex py-3 justify-center items-center bg-grayEspuma">
-                <p className="text-center text-white text-3xl font-poppins"> SOBRE NOSOTROS</p>
+            <div className="mt:0 md:mt-[5.7em] w-full flex py-5 justify-center items-center bg-whiteEspuma">
+                <p className="text-center text-bluesEspuma text-3xl font-poppins font-semibold"> SOBRE NOSOTROS</p>
             </div>
 
             <div className="flex items-center justify-center">
