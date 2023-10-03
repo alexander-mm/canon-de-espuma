@@ -8,6 +8,7 @@ const Main = () => (
             className='hidden md:block absolute top-[4.5em] left-0 object-cover sm:w-full h-[110%]'
             autoPlay
             loop
+            muted
             playsInline
             loading="lazy"
         >
@@ -20,6 +21,7 @@ const Main = () => (
             className='block md:hidden absolute top-[4.5em] left-0 object-cover sm:w-full h-[100%]'
             autoPlay
             loop
+            muted
             playsInline
             loading="lazy"
         >
