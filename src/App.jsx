@@ -29,7 +29,7 @@ function App() {
 
       <div className={`bg-custom-gradient-two`}>
         <Main />
-        <div id="nosotros" className="bg-transparent py-9"></div>
+        <div id="nosotros" className="bg-transparent py-0"></div>
       </div>
 
       <div className="bg-custom-gradient-two">

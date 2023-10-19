@@ -23,13 +23,12 @@ import foto20 from '../../assets/fotos/20.jpg'
 import foto21 from '../../assets/fotos/21.jpg'
 
 
-export function Slider() {
+export function SliderMobile() {
     return (
         <Splide options={{
+            perPage: 2,
             gap: 30,
-            width: 1500,
-            perPage: 4,
-
+            width: 2000,
         }}>
             <SplideSlide>
                 <img className='rounded-md' src={foto2} alt="Image 1" />
