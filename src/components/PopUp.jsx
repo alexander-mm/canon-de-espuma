@@ -1,5 +1,5 @@
-import colombia from "../assets/bandera-colombia.jpg"
-import ecuador from "../assets/bandera-ecuador.jpg"
+import colombia from "../assets/colombia.svg"
+import ecuador from "../assets/ecuador.svg"
 import PropTypes from 'prop-types';
 
 const Popup = ({ onImageClick }) => {
