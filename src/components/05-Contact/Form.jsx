@@ -30,9 +30,9 @@ const Form = () => {
         setCiudad('')
         setMensaje('')
 
-        const serviceID = 'service_d99y3qp';
-        const templateID = 'template_q1yikkr';
-        const userID = 'm4GtP4AbjXmTTcQPI';
+        const serviceID = 'service_cbwtn98';
+        const templateID = 'template_9b93df9';
+        const userID = 'bvahDzKpDYIhGFTkD';
 
         emailjs.sendForm(serviceID, templateID, e.target, userID)
             .then((result) => {
