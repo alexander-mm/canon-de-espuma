@@ -20,7 +20,7 @@ const Events = () => {
                             Explora momentos llenos de diversión y emoción en nuestra galería multimedia. Descubre fotos vibrantes de eventos y fiestas en las que la espuma se apodera de la diversión. Bienvenido a un espacio donde la alegría y la energía se capturan en cada imagen.
                         </p>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-10 items-center m-10">
+                    <div className="flex flex-col md:flex-row gap-10 items-center mx-10">
                         <div className="md:pr-8">
                             <iframe
                                 className="rounded-lg w-[425px] h-[250px] md:w-[500px] md:h-[300px]"
@@ -47,7 +47,7 @@ const Events = () => {
                 <div className="hidden md:flex mx-10">
                     <Slider />
                 </div>
-                <div className="md:hidden w-[25em]">
+                <div className="md:hidden w-[28em]">
                     <SliderTwo />
                 </div>
                 <div className="text-center pt-5">

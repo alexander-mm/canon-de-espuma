@@ -25,7 +25,7 @@ import foto21 from '../../assets/fotos/21.jpg'
 const SliderTwo = () => {
     return (
 
-        <Slider autoplay={2000} infinite={true} duration={1500} minSwipeOffset={0}>
+        <Slider autoplay={2000} infinite={true} duration={1000}>
             <img src={foto1} />
             <img src={foto2} />
             <img src={foto3} />
