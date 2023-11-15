@@ -1,5 +1,5 @@
 import { Slider } from "./Slider";
-import { SliderMobile } from "./SliderMobile";
+import SliderTwo from "./SliderTwo";
 // import "./Events.css";
 
 const Events = () => {
@@ -40,18 +40,18 @@ const Events = () => {
                 </div>
 
             </div>
-            <div className="py-10">
+            <div className="grid justify-items-center py-10">
                 <div className="text-center pb-5">
-                    <span className="text-white font-century">◁ㅤ•••ㅤ▷</span>
+                    <span className="hidden md:flex text-white font-century">◁ㅤ•••ㅤ▷</span>
                 </div>
-                <div className="md:hidden mx-10">
-                    <SliderMobile />
-                </div>
-                <div className="hidden md:flex justify-center mx-10">
+                <div className="hidden md:flex mx-10">
                     <Slider />
                 </div>
+                <div className="md:hidden w-[25em]">
+                    <SliderTwo />
+                </div>
                 <div className="text-center pt-5">
-                    <span className="text-white font-century">◁ㅤ•••ㅤ▷</span>
+                    <span className="hidden md:flex text-white font-century">◁ㅤ•••ㅤ▷</span>
                 </div>
             </div>
         </>
