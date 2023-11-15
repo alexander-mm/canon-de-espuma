@@ -18,7 +18,7 @@ const About = () => {
                             <p className="text-center mt-14 md:mt-8 mb-10 text-md sm:text-lg md:text-xl text-white font-century">Sonrisas, locura y emoción son esenciales para TÚ celebración!!!!</p>
                             <img className="w-11/12 sm:w-3/5" src={slogan} alt="" />
                             <p className=" m-10 md:m-12 text-center text-md sm:text-lg md:text-xl text-white font-century">El 14 de septiembre del 2013 ambientamos la primera fiesta de espuma y nace Espuma Play. Llevamos
-                                más de 9 años en el mundo del entretenimiento especializados en el dimensionamiento y cubrimiento de
+                                más de 10 años en el mundo del entretenimiento especializados en el dimensionamiento y cubrimiento de
                                 todo tipo de eventos temáticos con espuma. Gracias al esfuerzo y dedicación nos hemos convertido en un
                                 referente a nivel de toda latino América en el rubro de las fiestas de espuma.<br /><br />
                                 Nuestra logística especializada convierte una fiesta convencional en un lugar mágico y de fantasía, metros

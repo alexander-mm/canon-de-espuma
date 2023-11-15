@@ -53,12 +53,12 @@ const Navbar = () => {
                     className="w-[28px] h-[28px] object-contain mr-4"
                     onClick={() => setToggle((prev) => !prev)}
                 />
-                <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-whiteEspuma absolute top-16 right-0  min-w-[140px] rounded-sm sidebar`}>
+                <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-grayBanner absolute top-[63px] right-0  min-w-[140px] rounded-sm`}>
                     <ul className="list-none flex flex-col justify-end items-center flex-1">
                         {navLinks.map((nav, index) => (
                             <li
                                 key={nav.id}
-                                className={`font-poppins font-normal cursor-pointer text-[20px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-bluesEspuma`}
+                                className={`font-poppins font-normal cursor-pointer text-[20px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
                             >
                                 <a
                                     href={`#${nav.id}`}
