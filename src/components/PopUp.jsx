@@ -19,13 +19,14 @@ const Popup = ({ onImageClick }) => {
             zIndex: 9999,
         }}>
             <img src={logo} className=" w-64 sm:w-96 mt-6 mb-14" alt="" />
-            <p className=" text-center text-white text-2xl md:text-4xl font-gothamBold mb-10" >EN QUE LUGAR TE ENCUENTRAS?</p>
 
-            <p className=" text-center text-white text-2xl font-poppins" >Colombia</p>
-            <img className="cursor-pointer w-[200px] mt-4 mb-10 rounded-lg" src={colombia} alt="Imagen 1" onClick={() => onImageClick(1)} />
+            <p className=" text-center text-white text-2xl md:text-4xl font-nexa font-normal mb-14" >En qué lugar te encuentras?</p>
 
-            <p className=" text-center text-white text-2xl font-poppins mt-4" >Ecuador</p>
-            <img className="cursor-pointer w-[200px] mt-4 mb-10 rounded-lg" src={ecuador} alt="Imagen 2" onClick={() => onImageClick(2)} />
+            <p className=" text-center text-white text-2xl font-century" >Colombia</p>
+            <img className="cursor-pointer w-[200px] mt-4 mb-10 rounded-sm" src={colombia} alt="Imagen 1" onClick={() => onImageClick(1)} />
+
+            <p className=" text-center text-white text-2xl font-century" >Ecuador</p>
+            <img className="cursor-pointer w-[200px] mt-4 mb-10 rounded-sm" src={ecuador} alt="Imagen 2" onClick={() => onImageClick(2)} />
 
         </div>
     );

@@ -11,12 +11,12 @@ const Navbar = () => {
 
 
     return (
-        <nav className="w-full flex py-2 justify-between items-center navbar border-b border-black/20"
+        <nav className="w-full flex py-[12px] justify-between items-center navbar border-b border-black/20"
             style={{
                 position: 'fixed',
                 top: 0,
                 left: 0,
-                backgroundColor: '#DAE1E7',
+                backgroundColor: '#313131',
                 zIndex: 9999,
 
             }}
@@ -29,7 +29,7 @@ const Navbar = () => {
                 {navLinks.map((nav, index) => (
                     <li
                         key={nav.id}
-                        className={`font-poppins font-medium cursor-pointer text-[20px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-bluesEspuma`}
+                        className={`font-gothamRegular font-semibold cursor-pointer text-[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-12'} text-white`}
                     >
                         <a
                             href={`#${nav.id}`}

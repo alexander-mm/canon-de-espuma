@@ -5,7 +5,7 @@ const Main = () => (
     <section id="inicio" className="w-full min-h-screen relative">
         {/* Video para pantallas md: y más grandes */}
         <video
-            className='hidden md:block absolute top-[4.5em] left-0 object-cover sm:w-full h-[102%]'
+            className='hidden md:block absolute top-[3.9em] left-0 object-cover sm:w-full h-[102%]'
             autoPlay
             loop
             muted

@@ -5,9 +5,9 @@ import { SliderMobile } from "./SliderMobile";
 const Events = () => {
     return (
         <>
-            <div className="w-full flex py-5 justify-center items-center bg-whiteEspuma">
-                <p className="text-center text-bluesEspuma text-3xl font-poppins font-semibold">
-                    NUESTRA GALERIA
+            <div className="w-full flex py-5 justify-center items-center bg-grayBanner">
+                <p className="text-center text-skyEspuma text-3xl font-nexa font-semibold">
+                    EXPLORA LA GALERÍA
                 </p>
             </div>
 
@@ -16,7 +16,7 @@ const Events = () => {
                 <div className="grid justify-items-center">
 
                     <div className="">
-                        <p className="text-center text-xl sm:text-2xlfont-semibold text-white font-century md:px-52 lg:px-72 py-12">
+                        <p className="text-center text-md sm:text-lg md:text-xl text-white font-century mx-20 lg:mx-36 sm:mx-12 py-12">
                             Explora momentos llenos de diversión y emoción en nuestra galería multimedia. Descubre fotos vibrantes de eventos y fiestas en las que la espuma se apodera de la diversión. Bienvenido a un espacio donde la alegría y la energía se capturan en cada imagen.
                         </p>
                     </div>

@@ -48,7 +48,7 @@ const Form = () => {
 
             <form
                 onSubmit={handleSubmit}
-                className="bg-zinc-800 rounded-md py-10 px-8"
+                className="bg-grayBanner rounded-md py-10 px-8"
             >
 
                 <div className="mb-5">
@@ -145,7 +145,7 @@ const Form = () => {
 
                 <input
                     type="submit"
-                    className="bg-sky-800 hover:bg-sky-600 w-full p-3 text-white rounded-md mt-8 uppercase font-bold cursor-pointer" value="ENVIAR" />
+                    className="bg-skyEspuma hover:bg-blueEspuma w-full p-3 text-white rounded-md mt-8 uppercase font-bold cursor-pointer" value="ENVIAR" />
             </form>
         </div>
     )

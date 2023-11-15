@@ -5,9 +5,10 @@ export const theme = {
   extend: {
     colors: {
       grayEspuma: "#343436",
+      grayBanner: "#313131",
       whiteEspuma: "#DAE1E7",
-      bluesEspuma: "#142850",
-      skyEspuma: "#00909E",
+      bluesEspuma: "#0057A5",
+      skyEspuma: "#06CFF6",
       blueEspuma: "#0057A5",
       primary: "#00040f",
       secondary: "#00f6ff",

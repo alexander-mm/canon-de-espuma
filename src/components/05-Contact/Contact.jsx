@@ -8,8 +8,8 @@ const Contact = ({ contactLinksOption }) => {
 
     return (
         <>
-            <div className="w-full flex py-5 justify-center items-center bg-whiteEspuma">
-                <p className="text-center text-bluesEspuma text-3xl font-poppins font-semibold">CONTACTO</p>
+            <div className="w-full flex py-5 justify-center items-center bg-grayBanner">
+                <p className="text-center text-skyEspuma text-3xl font-nexa font-semibold">¿TE INTERESA UN EVENTO? CONTÁCTANOS</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-7 py-0 px-10 justify-items-center">
