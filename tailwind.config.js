@@ -17,7 +17,9 @@ export const theme = {
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
       century: ["Century Gothic Paneuropean", "sans-serif"],
-      nexa: ['Nexa', "sans-serif"]
+      nexa: ['Nexa', "sans-serif"],
+      gothamBold: ['Gotham Bold', 'sans-serif'],
+      gothamRegular: ["Gotham Regular", 'sans-serif'],
     },
     fontSize: {
       xl: ['26px', '32px'],
