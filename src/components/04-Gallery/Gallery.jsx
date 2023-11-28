@@ -24,15 +24,19 @@ const Events = () => {
                         <div className="md:pr-8">
                             <iframe
                                 className="rounded-lg w-[425px] h-[250px] md:w-[500px] md:h-[300px]"
-                                src="https://www.youtube.com/embed/CV6hEq-EyWc"
+                                src="https://www.youtube.com/embed/YZTuysmWyAw"
                                 title="Video 1"
+                                frameBorder="0"
+                                allowFullScreen
                             ></iframe>
                         </div>
                         <div className="md:pl-8">
                             <iframe
                                 className="rounded-lg w-[425px] h-[250px] md:w-[500px] md:h-[300px]"
-                                src="https://www.youtube.com/embed/t4OFxEDGx1A"
+                                src="https://www.youtube.com/embed/HYlVOgWkIhs"
                                 title="Video 2"
+                                frameBorder="0"
+                                allowFullScreen
                             ></iframe>
                         </div>
                     </div>
