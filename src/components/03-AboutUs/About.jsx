@@ -1,6 +1,4 @@
 import slogan from "../../assets/slogan.png"
-import foto1 from "../../assets/fotos/1.jpg"
-import foto16 from '../../assets/fotos/16.jpg'
 
 const About = () => {
     return (
@@ -28,8 +26,8 @@ const About = () => {
                         </div>
 
                         <div className="flex flex-col justify-center items-center">
-                            <img className="w-96 my-6 rounded-lg" src={foto1} alt="Imagen 2" />
-                            <img className="w-96 my-6 rounded-lg" src={foto16} alt="Imagen 1" />
+                            <img className="w-96 my-6 rounded-lg" src="https://www.masqueunefecto.com/wp-content/uploads/2023/11/1.jpg" alt="Imagen 1" />
+                            <img className="w-96 my-6 rounded-lg" src="https://www.masqueunefecto.com/wp-content/uploads/2023/11/16.jpg" alt="Imagen 16" />
                         </div>
 
                     </div>
