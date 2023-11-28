@@ -2,7 +2,6 @@ import { useState } from "react"
 import '../../scroll-bar.css'
 import close from '../../assets/close.svg'
 import menu from '../../assets/menu.svg'
-import logo from "../../assets/logo.png"
 import { navLinks } from "../../constants"
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
             }}
         >
             <img
-                src={logo} alt="espuma play logo"
+                src="https://www.masqueunefecto.com/wp-content/uploads/2023/11/logo-1.png" alt="espuma play logo"
                 className="w-[170px] ml-14 md:ml-40 lg:ml-60"
             />
             <ul className="list-none mr-14 md:mr-40 lg:mr-60 sm:flex hidden justify-end items-center flex-1">

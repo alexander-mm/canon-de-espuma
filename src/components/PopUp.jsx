@@ -1,7 +1,6 @@
 import colombia from "../assets/colombia.svg"
 import ecuador from "../assets/ecuador.svg"
 import PropTypes from 'prop-types';
-import logo from "../assets/logo.png"
 
 const Popup = ({ onImageClick }) => {
     return (
@@ -18,7 +17,7 @@ const Popup = ({ onImageClick }) => {
             alignItems: 'center',
             zIndex: 9999,
         }}>
-            <img src={logo} className=" w-64 sm:w-96 mt-6 mb-14" alt="" />
+            <img src="https://www.masqueunefecto.com/wp-content/uploads/2023/11/logo-1.png" className=" w-64 sm:w-96 mt-6 mb-14" alt="" />
 
             <p className=" text-center text-white text-2xl md:text-4xl font-nexa font-normal mb-14" >En qué lugar te encuentras?</p>
 

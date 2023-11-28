@@ -1,4 +1,3 @@
-import mapa from "../../assets/mapa.png"
 import Form from "./Form"
 import PropTypes from 'prop-types';
 import ContactLinksColombia from "./LinksColombia"
@@ -15,7 +14,7 @@ const Contact = ({ contactLinksOption }) => {
             <div className="grid grid-cols-1 md:grid-cols-7 py-0 px-10 justify-items-center">
 
                 <div className="flex items-center justify-center col-span-2">
-                    <img className="w-5/6 sm:w-8/12 md:w-full mb-14 md:mb-0 p-4" src={mapa} alt="" />
+                    <img className="w-5/6 sm:w-8/12 md:w-full mb-14 md:mb-0 p-4" src="https://www.masqueunefecto.com/wp-content/uploads/2023/11/mapa.png" alt="" />
                 </div>
 
                 <Form />
