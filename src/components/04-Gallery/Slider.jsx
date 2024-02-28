@@ -1,7 +1,6 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
-
 export function Slider() {
     return (
         <Splide options={{

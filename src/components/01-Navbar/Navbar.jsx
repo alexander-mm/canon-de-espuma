@@ -28,7 +28,7 @@ const Navbar = () => {
                 {navLinks.map((nav, index) => (
                     <li
                         key={nav.id}
-                        className={`font-gothamRegular font-semibold cursor-pointer text-[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-12'} text-white`}
+                        className={`font-gothamRegular cursor-pointer text-[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-12'} text-white`}
                     >
                         <a
                             href={`#${nav.id}`}

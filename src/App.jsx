@@ -12,7 +12,6 @@ function App() {
 
   const [showPopup, setShowPopup] = useState(true);
   const [contactLinksOption, setContactLinksOption] = useState(1);
-
   const handleImageClick = (imageNumber) => {
     setShowPopup(false);
     setContactLinksOption(imageNumber);

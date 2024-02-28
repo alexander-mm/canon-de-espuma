@@ -1,12 +1,11 @@
 import { Slider } from "./Slider";
 import SliderTwo from "./SliderTwo";
-// import "./Events.css";
 
 const Events = () => {
     return (
         <>
             <div className="w-full flex py-5 justify-center items-center bg-grayBanner">
-                <p className="text-center text-skyEspuma text-3xl font-nexa font-semibold">
+                <p className="text-center text-skyEspuma text-xl md:text-3xl font-nexa font-semibold">
                     EXPLORA LA GALERÍA
                 </p>
             </div>

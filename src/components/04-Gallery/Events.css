@@ -1,13 +1,9 @@
 /* Events.css */
 
 .custom-video {
-    /* Aquí puedes agregar tus estilos personalizados para los controles del video */
-    /* Por ejemplo, cambiar el color del fondo de los controles y el color del botón */
     background-color: #000;
   }
   
-
-/* Ocultar todos los controles excepto play, pause y mute en el reproductor de video */
 .custom-video::-webkit-media-controls-start-playback-button,
 .custom-video::-webkit-media-controls-pause-button,
 .custom-video::-webkit-media-controls-mute-button {
